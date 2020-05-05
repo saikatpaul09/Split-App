@@ -1,5 +1,5 @@
 import React, { Component } from 'react'  
-import Sign from '/Sign'  
+
 
 
 import { BrowserRouter, Switch, Route, Link } from 'react-router-dom'
@@ -134,7 +134,7 @@ class Login extends Component {
           </div>
           <div className="createAccount">
           <button type="submit"> Create Account </button> 
-          <small href="Sign/">Already Have an Account?Already Have an Account?</small>
+          <small>Already Have an Account?Already Have an Account?</small>
           </div>
         </form>
 
